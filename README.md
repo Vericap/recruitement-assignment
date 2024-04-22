@@ -27,9 +27,8 @@ The objective of this project is to create APIs that facilitate the submission o
 
 ### API Endpoints:
 
-1. **POST** endpoint to receive the project type selection.
-2. **GET** endpoint to retrieve questions for the selected project type.
-3. **POST** endpoint to save the user's questionnaire responses (text and file uploads).
+1. **GET** endpoint to retrieve questions for the selected project type.
+2. **POST** endpoint to save the user's questionnaire responses (text and file uploads).
 
 ### Dynamic Question Loading:
 
