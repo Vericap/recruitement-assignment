@@ -26,13 +26,21 @@ The objective of this project is to create APIs that facilitate the submission o
 ## Requirements:
 
 ### API Endpoints:
+1. **POST** create new project
+2. **GET** endpoint to retrieve questions for the selected project type.
+3. **POST** endpoint to save the user's questionnaire responses (text and file uploads).
 
-1. **GET** endpoint to retrieve questions for the selected project type.
-2. **POST** endpoint to save the user's questionnaire responses (text and file uploads).
+### API Guide:
+1. Create a schema for projects, having the following fields
+   - `project_name` as string
+   - `project_city` as string
+   - `project_type` as ENUM (JEE, NEET, CET)
+2. Create a schema for questions, refer the Sample Quesitonary for fields
+3. Map questiona schema with projects (many-to-one)
+4. While creating a project, by default add 3-4 questions for that project
 
-### Dynamic Question Loading:
-
-Questions should dynamically load based on the selected project type. This involves implementing a mechanism to efficiently retrieve 60-80 questions from the Strapi CMS.
+### Sample Questionary
+[Please refer this google sheet](https://docs.google.com/spreadsheets/d/1hhu5uDFwhGLTbrSSFd-XFcFLJ444r7qsklgX5CL95qs/edit?usp=sharing)
 
 ### Data Handling:
 
@@ -42,9 +50,6 @@ User responses must be saved and associated with the project type and questionna
 
 1. Implement robust error handling and input validation for all API endpoints.
 2. Provide clear error messages to facilitate debugging and troubleshooting.
-
-### Sample Questionary
-[Please refer this google sheet](https://docs.google.com/spreadsheets/d/1hhu5uDFwhGLTbrSSFd-XFcFLJ444r7qsklgX5CL95qs/edit?usp=sharing)
 
 ### Few Screen References:
 <img src ="https://i.postimg.cc/cLK4H68C/image.png" width="564">
