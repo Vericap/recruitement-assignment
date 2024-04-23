@@ -17,7 +17,7 @@ Vericap is revolutionizing the world of sustainable finance. As a financing and 
 
 ---
 
-## Assignment: Project Questionnaire API with Strapi CMS
+## Assignment: Project Questionnaire API
 
 ### Objective:
 
