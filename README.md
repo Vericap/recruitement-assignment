@@ -5,7 +5,7 @@ Vericap is revolutionizing the world of sustainable finance. As a financing and 
 
 ---
 
-# Junior Backend Engineer Assignment
+# Frontend Intern Assignment
 ---
 
 ## Setup Instructions:
